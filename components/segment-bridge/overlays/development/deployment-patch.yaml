@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: segment-bridge
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtap-o11y-tenant/segment-bridge/segment-bridge@sha256:bc75426405cb72231fddfa59ceb68b47f6c32bcb0c36cec6099d80d219758a29
+        name: container-image
+        resources: {}
+status: {}
