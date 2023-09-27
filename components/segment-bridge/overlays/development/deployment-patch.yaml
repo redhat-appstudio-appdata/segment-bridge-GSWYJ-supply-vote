@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-o11y-tenant/segment-bridge/segment-bridge@sha256:a25549ad4b42fc74c2d7cf2a9440514e8cdf80e2f1af43f615d037f1dd7ddbad
+      - image: quay.io/redhat-user-workloads/rhtap-o11y-tenant/segment-bridge/segment-bridge@sha256:bc75426405cb72231fddfa59ceb68b47f6c32bcb0c36cec6099d80d219758a29
         name: container-image
         resources: {}
 status: {}
