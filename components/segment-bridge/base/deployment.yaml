@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: segment-bridge
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-o11y-tenant/segment-bridge/segment-bridge@sha256:ec068d860943a3a54d6e22798a70acf8bf2f2b65b9136396a62ae882ba68a2ac
+      - image: quay.io/redhat-user-workloads/rhtap-o11y-tenant/segment-bridge/segment-bridge@sha256:230a1f59ed93777a13b67f4a842b4fe6feb8f3aca67fc0b0527479ca07c8e4e8
         imagePullPolicy: Always
         name: container-image
         ports:
